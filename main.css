@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap');
+
+:root{
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: hidden;
+}
+
+html{
+    background-color: var(--body-bg-color);
+}
+
+.main{
+    display: flex;
+}
+
+.sec-1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50vw;
+    padding-left: 1.875rem;
+    padding-top: 3.125rem;
+}
+
+.sec-1 img{
+    width: 56.3768115942%;
+}
+
+.sec-2{
+    background-image: url("read_news.jpg");
+    background-size: cover;
+    background-position: 70% 50%;
+    height: 100vh;
+    width: 50vw;
+}
+
+h1{
+    padding-top: 5.75rem;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+    color: var(--title-color);
+    margin-top: 5.75rem;
+}
+
+h2{
+    padding-top: 1rem;
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.95rem;
+    line-height: 2rem;
+    color: #FFFFFF;
+}
+
+h3{
+    padding-top: 0.7rem;
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 2rem;
+    color: #FFFFFF;
+}
+
+legend{
+    padding-top: 3.125rem;
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 138.73%;
+    color: #A8A8A8;
+}
+
+.email{
+    position: absolute;
+    border-left: 5px solid #04D361;
+    display: flex;
+    height: 48px;
+}
+
+.email input{
+    width: 52vw;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #6A6A6A;
+    padding-left: 10px;
+}
+
+.email input:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.email i{
+    background-color: #8257E5;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    transition: 0.8s;
+}
+
+.email i:hover{
+    background-color: black;
+    color: #8257E5;
+}
+
+.fa-paper-plane{
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+
+.obs{
+    margin-top: 6rem;
+    color: #8257E5;
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 138.73%;
+}
+
+.obs i{
+    font-size: 1.6rem;
+}
+
+.obs a{
+    text-decoration: none;
+    color: inherit;
+}
